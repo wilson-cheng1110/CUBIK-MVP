@@ -1,0 +1,9 @@
+streamlit==1.39.0  # Or latest
+streamlit-webrtc==0.64.4
+supervision
+inference-sdk
+av
+matplotlib
+pandas
+numpy
+opencv-python-headless
