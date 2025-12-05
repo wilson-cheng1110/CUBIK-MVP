@@ -41,7 +41,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Placeholder for model details - replace with your actual Roboflow model ID and API key
-MODEL_ID = "cubik-cv-zyzo7/7"  # Replace with your model ID, e.g., "airline-food-waste-detection/1"
+MODEL_ID = "cubik-cv-zyzo7/9"  # Replace with your model ID, e.g., "airline-food-waste-detection/1"
 API_KEY = "cD8O59BRprZIhIp4jRxk"  # Replace with your Roboflow API key (ensure it's valid to avoid 403 errors)
 
 # Initialize Inference Client
@@ -191,3 +191,4 @@ while ctx.state.playing and ctx.video_processor:
             st.info("No detections yet. Point the camera at a food tray.")
     
     time.sleep(1)
+
